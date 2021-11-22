@@ -1,4 +1,4 @@
-# Learning React at Masai School
+### Learning React at Masai School
 
 **Week 3**
 
