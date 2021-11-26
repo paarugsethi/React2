@@ -1,0 +1,55 @@
+.taskdiv{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    min-width: 380px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.task{
+    margin: auto auto auto 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.greenButton{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 70px;
+    height: 36px;
+    margin: auto 10px auto 10px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.button{
+    background-color: #D7DEF6;
+    border: none;
+    border-radius: 6px;
+    width: 70px;
+    height: 36px;
+    margin: auto 10px auto 10px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.redButton{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 70px;
+    height: 36px;
+    margin: auto 10px auto 10px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
