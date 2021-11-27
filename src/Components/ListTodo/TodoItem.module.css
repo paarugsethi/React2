@@ -5,10 +5,10 @@
     border: none;
     border-radius: 6px;
     min-width: 380px;
-    height: 40px;
+    min-height: 40px;
     font-family: 'Inter', sans-serif;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
 }
@@ -32,10 +32,10 @@
 }
 
 .button{
-    background-color: #D7DEF6;
+    background-color: white;
     border: none;
     border-radius: 6px;
-    width: 70px;
+    min-width: 70px;
     height: 36px;
     margin: auto 10px auto 10px;
     font-family: 'Inter', sans-serif;

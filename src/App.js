@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from './App.module.css';
-import Todo from './Components/TODO/Todo';
+import styles from "./App.module.css"
+import Todo from './Components/ListTodo/Todo';
+
 
 function App() {
   document.body.style = 'background: #D7DEF6;';

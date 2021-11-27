@@ -3,13 +3,8 @@ import TodoInput from "./Todoinput";
 import TodoItem from "./TodoItem";
 
 const Todo = () => {
-    const [todos, setTodos] = useState([
-        // {
-        //     id: 1,
-        //     title: "DEFAULT",
-        //     status: false
-        // }
-    ]);
+    const [todos, setTodos] = useState([]);
+    
     const handleTaskCreate = (title) => {
         const payload = {
             title: title,
