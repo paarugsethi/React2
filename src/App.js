@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from "./App.module.css"
-import Todo from './Components/ListTodo/Todo';
+import TicTacToe from './Components/TICTACTOE/Game';
 
 
 function App() {
-  document.body.style = 'background: #D7DEF6;';
+  document.body.style = 'background: #20232A;';
   return (
     <div style= {{margin: 4}} className={styles.App}>
-      <h1 style={{fontFamily: 'Inter'}}>To-do or not to do?</h1>
-      <Todo/>
+      <h1 style={{fontFamily: 'Poppins', color:"white"}}>Tic Tac Toe</h1>
+      <TicTacToe/>
     </div>
   );
 }

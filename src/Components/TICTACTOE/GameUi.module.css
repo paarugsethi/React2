@@ -1,0 +1,17 @@
+.tictacUi{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+}
+
+.button{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    min-width: 70px;
+    height: 36px;
+    margin: auto 10px auto 10px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.button{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    min-width: 70px;
+    height: 40px;
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.list{
+    list-style-type: none; 
+}
+
+.text{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.uiDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.bodyDiv{
+    border: solid 2px white;
+    margin: 30px 10px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    min-width: 150px;
+}
+
+.textHead{
+    font-family: 'Poppins', sans-serif;
+}

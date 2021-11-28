@@ -1,12 +1,12 @@
 
 .App {
-  background-color: #D7DEF6;
+  background-color: #20232A;
   /* #282c34 */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: white;
 }
 
 .App-link {

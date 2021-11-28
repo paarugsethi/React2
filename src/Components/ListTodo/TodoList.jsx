@@ -1,6 +1,8 @@
 import styles from "./TodoItem.module.css";
 
-function TodoList({ data }) {
+function TodoList({ id, data, handleToggle}) {
+
+    
 
     return (
         <div>
@@ -9,7 +11,14 @@ function TodoList({ data }) {
                     <div className={styles.taskdiv} key={item.id}>
                         <h2 style={{margin:0}}>{item.title}</h2>
                         <p>{item.description}</p>
-                        {item.status ? <p style={{color:"green"}}>DONE</p> : <p style={{color:"red"}}>PENDING</p>}
+                        {item.status ? <button
+                            onClick={() => handleToggle(id)}
+                            className={styles.greenButton}>DONE
+                            </button> : <button
+                            onClick={() => handleToggle(id)}
+                            className={styles.redButton}>PENDING
+                            </button>
+                        }
                     </div>
                 )
             }
