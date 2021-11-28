@@ -9,7 +9,7 @@ function TicTacToe() {
     const [stepNumber, setStepNumber] = useState(0);
     const [xTurn, setXTurn] = useState(true);
 
-    const winner = calculateWinner(history[stepNumber]);
+    const gameState = calculateWinner(history[stepNumber]);
 
     const turn = xTurn ? "X" : "O";
 
@@ -19,7 +19,7 @@ function TicTacToe() {
         const boxes = [...current];
 
         // RETURN IF WINNER OR OCCUPIED
-        if (winner || boxes[i]){
+        if (gameState || boxes[i]){
             return;
         }
 
@@ -70,7 +70,7 @@ function TicTacToe() {
                 </div>
                 <div className={styles.bodyDiv}>
                     <h3>
-                        {winner ? `${winner} won!` : `Up next: ${turn}`}
+                        {gameState ? `${gameState} won!` : `Up next: ${turn}`}
                     </h3>
                 </div>
             </div>
