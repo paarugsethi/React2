@@ -1,0 +1,10 @@
+.button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    min-width: 41px;
+    height: 41px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}

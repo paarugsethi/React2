@@ -10,7 +10,7 @@ const TodoItem = ({id, status, title, handleDelete, handleToggle}) => {
         classDiv = styles.redButton;
     }
     return <div className={styles.taskdiv}>
-        <h3 className={styles.task}>{`${title}`}</h3>
+        {!status ? <h3 className={styles.task}>{`${title}`}</h3> : <h3 className={styles.taskDone}>{`${title}`}</h3>}
         <button className={styles.button} onClick={() => handleDelete(id)}>DELETE</button>
         <button className={classDiv} onClick={() => handleToggle(id)}>{taskStatus}</button>
     </div>
